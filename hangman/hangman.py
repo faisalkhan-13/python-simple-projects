@@ -3,7 +3,7 @@ from words import words
 import string
 
 
-# words=["java","python","ruby","javascript","programming"] this is used in case of words.py is not available
+# words=["java","python","ruby","javascript","programming"] # this is used in case of words.py is not available
 def get_valid_word(words):
     word = random.choice(words)  # randomly chooses something from the list
     while '-' in word or ' ' in word:
